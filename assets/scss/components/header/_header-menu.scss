@@ -1,0 +1,27 @@
+@use "../../mixins" as *;
+@use "../../presets" as *;
+
+.header-menu {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  left: 0;
+
+  &__container {
+    display: flex;
+    align-items: center;
+    padding: 0 10px 0px 20px;
+    gap: $gap;
+    @extend %container;
+    @include md{
+      background-color: rgba($color-gray-dark, 0.25);
+      box-shadow: -3px 3px 20px -10px black;
+    }
+  }
+
+  &__logo {
+    font-size: 1.5rem;
+  }
+}
+
