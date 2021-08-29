@@ -1080,7 +1080,7 @@ a {
   }
   .skills__container {
     grid-template-areas: "a1 a1 a2 a3" "a4 a5 a5 a6" "a7 a8 a9 a6";
-    grid-template-columns: repeat 4, 1fr;
+    grid-template-columns: repeat(4, 1fr);
   }
   .about {
     padding: 100px 0;
@@ -1115,7 +1115,7 @@ a {
   }
   .skills__container {
     grid-template-areas: "a1 a1 a2" "a3 a4 a4" "a5 a5 a6" "a7 a8 a6" "a7 a9 a9";
-    grid-template-columns: repeat 3, 1fr;
+    grid-template-columns: repeat(3, 1fr);
   }
   .about {
     padding: 80px 0;
@@ -1186,7 +1186,7 @@ a {
   }
   .skills__container {
     grid-template-areas: "a1 a2" "a3 a2" "a4 a4" "a5 a6" "a5 a7" "a8 a9";
-    grid-template-columns: repeat 2, 1fr;
+    grid-template-columns: repeat(2, 1fr);
   }
   .about__container {
     gap: 20px;
