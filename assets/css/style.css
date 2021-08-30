@@ -360,6 +360,10 @@ template {
           box-sizing: border-box;
 }
 
+body, html {
+  overflow-x: hidden;
+}
+
 html {
   color: #637588;
   font-family: "Roboto", sans-serif;
