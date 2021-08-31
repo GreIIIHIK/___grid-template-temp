@@ -6,7 +6,8 @@
 *::after {
   box-sizing: border-box;
 }
-body, html{
+body,
+html {
   overflow-x: hidden;
 }
 html {
@@ -34,34 +35,34 @@ h1 {
     font-size: 1.875rem;
   }
 }
-h2{
+h2 {
   font-weight: 700;
   color: $color-primary;
   line-height: 1.2em;
   letter-spacing: 0.1em;
   font-family: "Roboto Slab", serif;
-  @include lg-min{
+  @include lg-min {
     font-size: 2.5rem;
   }
-  @include lg-md{
+  @include lg-md {
     font-size: 2rem;
   }
-  @include md-sm{
+  @include md-sm {
     font-size: 1.5rem;
   }
 }
-h3{
+h3 {
   font-size: 1.125rem;
   color: $color-gray;
   letter-spacing: 0.05em;
 }
-p{
+p {
   color: $color-gray;
   line-height: 1.15em;
-  @include lg-min{
+  @include lg-min {
     font-size: 1.125rem;
   }
-  @include lg-md{
+  @include lg-md {
     font-size: 1rem;
   }
 }

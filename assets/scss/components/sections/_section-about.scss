@@ -2,7 +2,7 @@
 @use "../../presets" as *;
 
 .about {
-    letter-spacing: 0.055em;
+  letter-spacing: 0.055em;
   background-color: $color-gray-light;
   @include lg-min {
     padding: 100px 0;
@@ -19,7 +19,7 @@
     grid-template-columns: 1fr 271px;
     @extend %container;
     padding: 0 20px;
-    
+
     @include lg-min {
       gap: 100px;
     }
@@ -38,17 +38,17 @@
   &-content__subtitle {
     margin: 0;
     &:nth-last-of-type(1) {
-      @include lg-min{
+      @include lg-min {
         margin: 0 0 43px 0;
       }
-      @include lg-md{
-          margin: 0 0 37px 0;
+      @include lg-md {
+        margin: 0 0 37px 0;
       }
-      @include md-sm{
-          margin-bottom: 2.25rem;
+      @include md-sm {
+        margin-bottom: 2.25rem;
       }
-      @include sm{
-          margin-bottom: 2.25rem;
+      @include sm {
+        margin-bottom: 2.25rem;
       }
     }
   }
@@ -65,10 +65,10 @@
       height: 200px;
       content: "";
       background-color: rgba(99, 117, 136, 0.1);
-      @include lg-md{
+      @include lg-md {
         right: -20px;
       }
-      @include md-sm{
+      @include md-sm {
         right: -10px;
       }
     }
@@ -86,13 +86,13 @@
 .about-content {
 }
 .about-content__title {
-    @include sm{
-        text-align: center;
-        margin-bottom: -5px;
-    }
+  @include sm {
+    text-align: center;
+    margin-bottom: -5px;
+  }
 }
 .about-content__list {
-    @include md-sm{
-        margin-top: -5px;
-    }
+  @include md-sm {
+    margin-top: -5px;
+  }
 }

@@ -14,7 +14,7 @@
     padding: 0 10px 0px 20px;
     gap: $gap;
     @extend %container;
-    @include md{
+    @include md {
       background-color: rgba($color-gray-dark, 0.25);
       box-shadow: -3px 3px 20px -10px black;
     }
@@ -24,4 +24,3 @@
     font-size: 1.5rem;
   }
 }
-

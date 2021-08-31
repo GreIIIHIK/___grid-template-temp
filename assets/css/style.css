@@ -360,7 +360,8 @@ template {
           box-sizing: border-box;
 }
 
-body, html {
+body,
+html {
   overflow-x: hidden;
 }
 
@@ -433,7 +434,8 @@ a {
   background-color: #d66926;
 }
 
-.btn--skill, .btn--posts {
+.btn--skill,
+.btn--posts {
   border: 2px solid #2d3651;
   background-color: rgba(45, 54, 81, 0.8);
   min-width: 350px;
@@ -1225,7 +1227,8 @@ a {
   }
 }
 @media (max-width: 575.8px) {
-  .btn--skill, .btn--posts {
+  .btn--skill,
+.btn--posts {
     min-width: calc(100% - 20px);
   }
   .btn--posts {
